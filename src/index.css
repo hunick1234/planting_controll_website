@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik%20Microbe:700|Rubik%20Microbe:400");
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+:root[data-theme="light"] {
+  --text: hsl(30, 40%, 2%);
+  --background: hsl(45, 40%, 98%);
+  --primary-background: #f5f5f5;
+  --primary: hsl(36, 32%, 51%);
+  --secondary: hsl(69, 31%, 72%);
+  --accent: hsl(83, 32%, 64%);
+}
+:root[data-theme="dark"] {
+  --text: hsl(30, 40%, 98%);
+  --background: hsl(45, 40%, 2%);
+  --primary: hsl(36, 32%, 49%);
+  --secondary: hsl(69, 31%, 28%);
+  --accent: hsl(82, 32%, 36%);
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  align-items: flex-start; /* Aligns children to the top of the container */
+  justify-content: flex-start; /* Aligns children to the start (left) of the container */
+  min-width: 320px;
+  min-height: 100vh;
+  width: 100vw;
+  height: 100vh;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #f0e986;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+body {
+  font-family: "Rubik Microbe";
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Rubik Microbe";
+  font-weight: 700;
+}
+
+html {
+  font-size: 100%;
+} /* 16px */
+
+h1 {
+  font-size: 4.21rem; /* 67.36px */
+}
+
+h2 {
+  font-size: 3.158rem; /* 50.56px */
+}
+
+h3 {
+  font-size: 2.369rem; /* 37.92px */
+}
+
+h4 {
+  font-size: 1.777rem; /* 28.48px */
+}
+
+h5 {
+  font-size: 1.333rem; /* 21.28px */
+}
+
+small {
+  font-size: 0.75rem; /* 12px */
+}
