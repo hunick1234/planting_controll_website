@@ -153,7 +153,7 @@ export const Agent = () => {
 
   return (
     <div onClick={handleValueChange}>
-      <ELF message={message} imageSrc="./assets/walking.png" />
+      <ELF message={message} imageSrc="./assets/elf.png" />
     </div>
   );
 };
